@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "com.ardith.dbx-visual-query-builder",
+  "publisher": "ardith",
+  "version": "0.16.0",
+  "name": "Visual Query Builder",
+  "description": "Build read-only SELECT queries visually in DBX: draggable relationship diagram, foreign-key auto-join, live SQL preview, and CSV/XLSX/PDF export.",
+  "icon": "https://raw.githubusercontent.com/ardith666/dbx-visual-query-builder/v0.16.0/assets/plugin.svg",
+  "tags": ["sql", "query-builder", "visual-query", "database"],
+  "permissions": ["host.schema:read", "host.data:read", "host.storage"],
+  "source": "https://github.com/ardith666/dbx-visual-query-builder/tree/v0.16.0",
+  "homepage": "https://github.com/ardith666/dbx-visual-query-builder",
+  "license": "Apache-2.0",
+  "releaseNotes": "First release. Draggable relationship diagram with real foreign keys and 1/N cardinality, automatic LEFT JOIN from foreign-key metadata, live SQL preview with an optional manual editor, read-only execution through the DBX Host API, result grid with global and per-column filters plus paging and column resizing, and export to CSV, .xlsx, PDF, and a printable HTML document.",
+  "localizations": {
+    "en": {
+      "name": "Visual Query Builder",
+      "description": "Build read-only SELECT queries visually in DBX: draggable relationship diagram, foreign-key auto-join, live SQL preview, and CSV/XLSX/PDF export."
+    },
+    "id": {
+      "name": "Visual Query Builder",
+      "description": "Bangun query SELECT read-only secara visual di DBX: diagram relasi yang bisa digeser, auto-join dari foreign key, pratinjau SQL langsung, dan export CSV/XLSX/PDF."
+    }
+  },
+  "targets": [
+    {
+      "target": "universal",
+      "url": "https://github.com/ardith666/dbx-visual-query-builder/releases/download/v0.16.0/com.ardith.dbx-visual-query-builder-0.16.0-universal.dbxp",
+      "sha256": "d4fdb75a2521ddb202ae6db5b0e7475a0d3f7e087369500bc3cdfe008572ab0b",
+      "size": 41659
+    }
+  ]
+}
