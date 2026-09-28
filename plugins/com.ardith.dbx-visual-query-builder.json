@@ -1,10 +1,9 @@
 {
-  "schemaVersion": 1,
   "id": "com.ardith.dbx-visual-query-builder",
-  "publisher": "ardith",
-  "version": "0.16.0",
   "name": "Visual Query Builder",
   "description": "Build read-only SELECT queries visually in DBX: draggable relationship diagram, foreign-key auto-join, live SQL preview, and CSV/XLSX/PDF export.",
+  "publisher": "ardith",
+  "verified": false,
   "icon": "https://raw.githubusercontent.com/ardith666/dbx-visual-query-builder/v0.16.0/assets/plugin.svg",
   "tags": [
     "sql",
@@ -20,7 +19,23 @@
   "source": "https://github.com/ardith666/dbx-visual-query-builder/tree/v0.16.0",
   "homepage": "https://github.com/ardith666/dbx-visual-query-builder",
   "license": "Apache-2.0",
-  "releaseNotes": "First release. Draggable relationship diagram with real foreign keys and 1/N cardinality, automatic LEFT JOIN from foreign-key metadata, live SQL preview with an optional manual editor, read-only execution through the DBX Host API, result grid with global and per-column filters plus paging and column resizing, and export to CSV, .xlsx, PDF, and a printable HTML document.",
+  "latestVersion": "0.16.0",
+  "versions": [
+    {
+      "version": "0.16.0",
+      "releasedAt": "2026-09-28T13:25:03.999Z",
+      "releaseNotes": "First release. Draggable relationship diagram with real foreign keys and 1/N cardinality, automatic LEFT JOIN from foreign-key metadata, live SQL preview with an optional manual editor, read-only execution through the DBX Host API, result grid with global and per-column filters plus paging and column resizing, and export to CSV, .xlsx, PDF, and a printable HTML document.",
+      "artifacts": [
+        {
+          "target": "universal",
+          "url": "https://dl.dbxio.com/plugins/com.ardith.dbx-visual-query-builder/0.16.0/com.ardith.dbx-visual-query-builder-0.16.0-universal.dbxp",
+          "sha256": "b26c4231b5d85ed0125183595aaf2b5908c2def41dedd017cf1f0691d524363c",
+          "signingKeyId": "dbx-store-release-2026",
+          "size": 42311
+        }
+      ]
+    }
+  ],
   "localizations": {
     "en": {
       "name": "Visual Query Builder",
@@ -38,13 +53,5 @@
       "name": "可视化查询构建器",
       "description": "在 DBX 中可视化构建只读 SELECT 查询：可拖拽的关系图、外键自动联接、实时 SQL 预览，以及 CSV/XLSX/PDF 导出。"
     }
-  },
-  "targets": [
-    {
-      "target": "universal",
-      "url": "https://github.com/ardith666/dbx-visual-query-builder/releases/download/v0.16.0/com.ardith.dbx-visual-query-builder-0.16.0-universal.dbxp",
-      "sha256": "d4fdb75a2521ddb202ae6db5b0e7475a0d3f7e087369500bc3cdfe008572ab0b",
-      "size": 41659
-    }
-  ]
+  }
 }
