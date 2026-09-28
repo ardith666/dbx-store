@@ -65,6 +65,14 @@
     "zh-CN": {
       "name": "日志查看器",
       "description": "查看服务器 .log 日志，支持滚动查询与模糊搜索"
+    },
+    "en": {
+      "name": "Log Viewer",
+      "description": "View server .log files with keyword search, live tail and download."
+    },
+    "zh": {
+      "name": "日志查看器",
+      "description": "查看服务器 .log 日志，支持滚动查询与模糊搜索"
     }
   }
 }

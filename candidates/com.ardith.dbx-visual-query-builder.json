@@ -6,8 +6,17 @@
   "name": "Visual Query Builder",
   "description": "Build read-only SELECT queries visually in DBX: draggable relationship diagram, foreign-key auto-join, live SQL preview, and CSV/XLSX/PDF export.",
   "icon": "https://raw.githubusercontent.com/ardith666/dbx-visual-query-builder/v0.16.0/assets/plugin.svg",
-  "tags": ["sql", "query-builder", "visual-query", "database"],
-  "permissions": ["host.schema:read", "host.data:read", "host.storage"],
+  "tags": [
+    "sql",
+    "query-builder",
+    "visual-query",
+    "database"
+  ],
+  "permissions": [
+    "host.schema:read",
+    "host.data:read",
+    "host.storage"
+  ],
   "source": "https://github.com/ardith666/dbx-visual-query-builder/tree/v0.16.0",
   "homepage": "https://github.com/ardith666/dbx-visual-query-builder",
   "license": "Apache-2.0",
@@ -20,6 +29,14 @@
     "id": {
       "name": "Visual Query Builder",
       "description": "Bangun query SELECT read-only secara visual di DBX: diagram relasi yang bisa digeser, auto-join dari foreign key, pratinjau SQL langsung, dan export CSV/XLSX/PDF."
+    },
+    "zh-CN": {
+      "name": "可视化查询构建器",
+      "description": "在 DBX 中可视化构建只读 SELECT 查询：可拖拽的关系图、外键自动联接、实时 SQL 预览，以及 CSV/XLSX/PDF 导出。"
+    },
+    "zh": {
+      "name": "可视化查询构建器",
+      "description": "在 DBX 中可视化构建只读 SELECT 查询：可拖拽的关系图、外键自动联接、实时 SQL 预览，以及 CSV/XLSX/PDF 导出。"
     }
   },
   "targets": [

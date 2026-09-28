@@ -56,8 +56,8 @@
     },
     {
       "id": "chatawesome.cn.json-pretty",
-      "name": "JSON 格式化",
-      "description": "格式化、压缩、折叠、转义、导入、导出 JSON，左侧工作区树可新建文件夹/JSON 文件。",
+      "name": "JSON Formatter",
+      "description": "Format, minify, fold, escape, import and export JSON, with a left-hand workspace tree for creating folders and JSON files.",
       "publisher": "acornlive",
       "verified": false,
       "icon": "https://dl.dbxio.com/plugins/chatawesome.cn.json-pretty/0.1.3/icon.svg",
@@ -179,6 +179,14 @@
         "zh-CN": {
           "name": "JSON 格式化工具",
           "description": "格式化、压缩、折叠、转义、导入、导出 JSON。纯前端、数据不出本机。"
+        },
+        "en": {
+          "name": "JSON Formatter",
+          "description": "Format, minify, fold, escape, import and export JSON, with a left-hand workspace tree for creating folders and JSON files."
+        },
+        "zh": {
+          "name": "JSON 格式化工具",
+          "description": "格式化、压缩、折叠、转义、导入、导出 JSON。纯前端、数据不出本机。"
         }
       }
     },
@@ -250,6 +258,14 @@
       ],
       "localizations": {
         "zh-CN": {
+          "name": "NATS",
+          "description": "管理 NATS 服务器：JetStream 流、消费者与消息、键值存储、对象存储、服务、发布、请求-响应和实时订阅。"
+        },
+        "en": {
+          "name": "NATS",
+          "description": "Manage NATS servers: JetStream streams, consumers and messages, key-value buckets, object stores, services, publish, request-reply and live subscriptions."
+        },
+        "zh": {
           "name": "NATS",
           "description": "管理 NATS 服务器：JetStream 流、消费者与消息、键值存储、对象存储、服务、发布、请求-响应和实时订阅。"
         }
@@ -407,6 +423,14 @@
         "zh-CN": {
           "name": "HTTP 客户端",
           "description": "类似 Postman 的 HTTP 接口调试工作台：构造请求、通过原生 Sidecar 发送并查看响应。"
+        },
+        "en": {
+          "name": "HTTP Client",
+          "description": "A Postman-style HTTP workbench: compose requests, send them through a native sidecar, and inspect responses."
+        },
+        "zh": {
+          "name": "HTTP 客户端",
+          "description": "类似 Postman 的 HTTP 接口调试工作台：构造请求、通过原生 Sidecar 发送并查看响应。"
         }
       }
     },
@@ -485,6 +509,14 @@
         "zh-CN": {
           "name": "IMREPO",
           "description": "在同一个工作台里浏览、管理和检查 OCI / Harbor 容器镜像仓库：项目与命名空间导航、Tag 重命名与删除、镜像层逐层解析、Trivy 漏洞报告、总览图表与多架构结构展示。"
+        },
+        "en": {
+          "name": "IMREPO",
+          "description": "Browse, manage and inspect OCI / Harbor container registries from a single workbench: project and namespace navigation, tag rename and delete, per-layer size analysis, Trivy CVE reports, registry-wide charts and multi-arch breakdowns."
+        },
+        "zh": {
+          "name": "IMREPO",
+          "description": "在同一个工作台里浏览、管理和检查 OCI / Harbor 容器镜像仓库：项目与命名空间导航、Tag 重命名与删除、镜像层逐层解析、Trivy 漏洞报告、总览图表与多架构结构展示。"
         }
       }
     },
@@ -530,6 +562,14 @@
       ],
       "localizations": {
         "zh-CN": {
+          "name": "终端模拟器",
+          "description": "DBX 工作台内置终端：多标签分屏会话、SSH/Telnet/Serial 连接、SFTP 文件管理、系统监控、命令面板与主题跟随。"
+        },
+        "en": {
+          "name": "Terminal Emulator",
+          "description": "A DBX workbench terminal emulator with multi-tab sessions, split panes, SSH/Telnet/Serial connections, SFTP file management, and a live system monitor."
+        },
+        "zh": {
           "name": "终端模拟器",
           "description": "DBX 工作台内置终端：多标签分屏会话、SSH/Telnet/Serial 连接、SFTP 文件管理、系统监控、命令面板与主题跟随。"
         }
@@ -795,6 +835,14 @@
         "zh-CN": {
           "name": "NintyShell",
           "description": "在 DBX 工作台中打开本地 Shell 与 SSH/SFTP 终端，执行命令并管理远程文件。"
+        },
+        "en": {
+          "name": "NintyShell",
+          "description": "Local shell and SSH/SFTP terminals in the DBX workbench: run commands and manage remote files."
+        },
+        "zh": {
+          "name": "NintyShell",
+          "description": "在 DBX 工作台中打开本地 Shell 与 SSH/SFTP 终端，执行命令并管理远程文件。"
         }
       }
     },
@@ -906,8 +954,8 @@
     },
     {
       "id": "com.yiqiui.leetcode-cn",
-      "name": "LeetCode 刷题",
-      "description": "在 DBX 插件中心登录力扣（leetcode.cn）账号，按官方分类与标签浏览题库、排序与筛选、收藏题目、查看每日一题与学习计划，并选择语言编写代码运行 / 提交判题。",
+      "name": "LeetCode Practice",
+      "description": "Sign in to leetcode.cn inside the DBX plugin center, browse the problemset with the official category tabs and topic tags, sort and filter, favourite questions, see the daily question and study plans, then write code and run or submit it.",
       "publisher": "yiqiui",
       "verified": false,
       "icon": "https://dl.dbxio.com/plugins/com.yiqiui.leetcode-cn/0.3.11/icon.svg",
@@ -1273,6 +1321,10 @@
         "zh": {
           "name": "OpenTelemetry 遥测",
           "description": "接收 OTLP 链路、指标与日志，查看 span 瀑布图，并通过 DBX 内置 DuckDB 用 SQL 分析。"
+        },
+        "en": {
+          "name": "OpenTelemetry",
+          "description": "Receive OTLP traces, metrics and logs, then browse span waterfalls and analyze them with SQL through DBX's built-in DuckDB."
         }
       }
     },
@@ -1341,6 +1393,14 @@
       ],
       "localizations": {
         "zh-CN": {
+          "name": "剪贴板历史",
+          "description": "浏览、搜索并复用本机剪贴板记录（文本、图片、文件列表）。"
+        },
+        "en": {
+          "name": "Clipboard History",
+          "description": "Browse, search, and reuse local clipboard history (text, images, and file lists)."
+        },
+        "zh": {
           "name": "剪贴板历史",
           "description": "浏览、搜索并复用本机剪贴板记录（文本、图片、文件列表）。"
         }
@@ -1620,6 +1680,14 @@
       ],
       "localizations": {
         "zh-CN": {
+          "name": "Excalidraw Studio",
+          "description": "内嵌于 DBX 的轻量本地优先画图工作台，由 Excalidraw 驱动。"
+        },
+        "en": {
+          "name": "Excalidraw Studio",
+          "description": "A lightweight, local-first diagramming workspace powered by Excalidraw, embedded directly in DBX."
+        },
+        "zh": {
           "name": "Excalidraw Studio",
           "description": "内嵌于 DBX 的轻量本地优先画图工作台，由 Excalidraw 驱动。"
         }
@@ -2157,6 +2225,14 @@
       ],
       "localizations": {
         "zh-CN": {
+          "name": "Files Studio",
+          "description": "统一管理本地文件夹、S3 兼容存储、Azure Blob、Google Cloud Storage、华为 OBS、WebDAV、FTP、SFTP、SMB/CIFS 等 OpenDAL 服务的文件工作台：传输任务、归档与受控运维集中在一个界面。"
+        },
+        "en": {
+          "name": "Files Studio",
+          "description": "A unified file workspace for local folders, S3-compatible storage, Azure Blob, Google Cloud Storage, Huawei OBS, WebDAV, FTP, SFTP, SMB/CIFS, and other OpenDAL services."
+        },
+        "zh": {
           "name": "Files Studio",
           "description": "统一管理本地文件夹、S3 兼容存储、Azure Blob、Google Cloud Storage、华为 OBS、WebDAV、FTP、SFTP、SMB/CIFS 等 OpenDAL 服务的文件工作台：传输任务、归档与受控运维集中在一个界面。"
         }
@@ -3410,13 +3486,21 @@
         "zh-CN": {
           "name": "LDAP Studio",
           "description": "用于浏览、搜索和管理 LDAP 目录：支持 RFC 4515 过滤器、Schema 检查、条目编辑、LDIF/CSV 导出和受控写入。"
+        },
+        "en": {
+          "name": "LDAP Studio",
+          "description": "Browse, search, and manage LDAP directories: RFC 4515 filters, directory tree, schema inspection, guarded entry editing, and LDIF/CSV export."
+        },
+        "zh": {
+          "name": "LDAP Studio",
+          "description": "用于浏览、搜索和管理 LDAP 目录：支持 RFC 4515 过滤器、Schema 检查、条目编辑、LDIF/CSV 导出和受控写入。"
         }
       }
     },
     {
       "id": "io.dbx.nintyapi",
       "name": "NintyAPI",
-      "description": "在 DBX 里调试 HTTP 接口：接口集合树、完整请求历史（参数与响应一并留存）、文件上传（form-data 多文件、拖拽或选择文件、分片流式发送）、cURL 互转、代码生成，分栏可拖拽，剪贴板与右键菜单都可用。",
+      "description": "Debug HTTP APIs inside DBX: an API collection tree, full request history (parameters and responses retained), two-way cURL conversion, code generation, draggable split panes, and working clipboard and context menus.",
       "publisher": "nintycat",
       "verified": false,
       "icon": "https://dl.dbxio.com/plugins/io.dbx.nintyapi/0.1.13/icon.svg",
@@ -4144,6 +4228,14 @@
         "zh-CN": {
           "name": "SSH Terminal",
           "description": "面向服务器运维的 SSH 终端：交互式会话、SFTP 文件传输、远程命令和受控运维操作集中在一个界面。"
+        },
+        "en": {
+          "name": "SSH Terminal",
+          "description": "A secure SSH terminal for interactive sessions, SFTP file transfer, remote commands, and guarded server operations."
+        },
+        "zh": {
+          "name": "SSH Terminal",
+          "description": "面向服务器运维的 SSH 终端：交互式会话、SFTP 文件传输、远程命令和受控运维操作集中在一个界面。"
         }
       }
     },
@@ -4377,6 +4469,14 @@
         "zh-CN": {
           "name": "DBX Plan Detective",
           "description": "分析 DBX Estimated Plan，提供结构化解析、执行计划树可视化、确定性诊断与热点定位。"
+        },
+        "en": {
+          "name": "DBX Plan Detective",
+          "description": "Analyze DBX Estimated Plans with structured parsing, plan-tree visualization, deterministic findings, and hotspot detection."
+        },
+        "zh": {
+          "name": "DBX Plan Detective",
+          "description": "分析 DBX Estimated Plan，提供结构化解析、执行计划树可视化、确定性诊断与热点定位。"
         }
       }
     },
@@ -4418,6 +4518,14 @@
       ],
       "localizations": {
         "zh-CN": {
+          "name": "SchemaSeed",
+          "description": "根据当前 DBX 表结构生成确定性的测试数据，支持预览与 CSV / JSON / INSERT SQL 导出，用于开发、联调与功能验证。"
+        },
+        "en": {
+          "name": "SchemaSeed",
+          "description": "Generate deterministic synthetic test data from the current DBX table schema for development, integration testing and functional validation, with preview and CSV / JSON / INSERT SQL export."
+        },
+        "zh": {
           "name": "SchemaSeed",
           "description": "根据当前 DBX 表结构生成确定性的测试数据，支持预览与 CSV / JSON / INSERT SQL 导出，用于开发、联调与功能验证。"
         }
@@ -4529,6 +4637,14 @@
       ],
       "localizations": {
         "zh-CN": {
+          "name": "DBX 工具箱",
+          "description": "一站式、注重隐私的本地开发工具箱，涵盖数据转换、编解码、格式化、文本与图片处理、实用生成器、密码学工具及加密密钥库；所有数据均在本机处理。"
+        },
+        "en": {
+          "name": "DBX Toolbox",
+          "description": "An all-in-one, privacy-focused developer toolbox for data conversion, encoding and decoding, formatting, text and image processing, generators, cryptographic tools, and an encrypted key vault—all processed locally."
+        },
+        "zh": {
           "name": "DBX 工具箱",
           "description": "一站式、注重隐私的本地开发工具箱，涵盖数据转换、编解码、格式化、文本与图片处理、实用生成器、密码学工具及加密密钥库；所有数据均在本机处理。"
         }
@@ -4846,6 +4962,14 @@
         "zh-CN": {
           "name": "ExcelX",
           "description": "把 Excel / CSV 表格转换成 SQLite 数据库，随时导出回表格——让不懂数据库的人也能用 SQL 或 AI 助手直接查询、分析自己的数据。"
+        },
+        "en": {
+          "name": "ExcelX",
+          "description": "Convert spreadsheets (xlsx/xls/csv) into SQLite databases and export them back, so anyone can query their data with SQL or the DBX AI assistant."
+        },
+        "zh": {
+          "name": "ExcelX",
+          "description": "把 Excel / CSV 表格转换成 SQLite 数据库，随时导出回表格——让不懂数据库的人也能用 SQL 或 AI 助手直接查询、分析自己的数据。"
         }
       }
     },
@@ -5040,6 +5164,10 @@
         "en": {
           "name": "Embedded Terminal",
           "description": "Run an interactive local shell directly inside a DBX workbench."
+        },
+        "zh": {
+          "name": "内嵌终端",
+          "description": "直接在 DBX 工作台内运行本机交互式终端。"
         }
       }
     },
@@ -6146,6 +6274,14 @@
         "zh-CN": {
           "name": "Code Editor",
           "description": "在 DBX 中浏览、搜索和编辑本地项目文件。"
+        },
+        "en": {
+          "name": "Code Editor",
+          "description": "Browse, search, and edit local project files inside DBX."
+        },
+        "zh": {
+          "name": "Code Editor",
+          "description": "在 DBX 中浏览、搜索和编辑本地项目文件。"
         }
       }
     },
@@ -6214,6 +6350,14 @@
       ],
       "localizations": {
         "zh-CN": {
+          "name": "日志查看器",
+          "description": "查看服务器 .log 日志，支持滚动查询与模糊搜索"
+        },
+        "en": {
+          "name": "Log Viewer",
+          "description": "View server .log files with keyword search, live tail and download."
+        },
+        "zh": {
           "name": "日志查看器",
           "description": "查看服务器 .log 日志，支持滚动查询与模糊搜索"
         }
@@ -6527,6 +6671,14 @@
       ],
       "localizations": {
         "zh-CN": {
+          "name": "Dev 工具集",
+          "description": "沙箱离线运行，零联网、仅1项本地权限。42 款开发工具仅 ~150KB：集安全加解密、编解码与转义、文本与正则排版、时间与 Cron 计算、网络与系统运维、前端图像与标识生成等全场景工具于一体，满足日常开发高频需求。"
+        },
+        "en": {
+          "name": "Dev Tools",
+          "description": "Runs offline in a sandbox with zero network calls and just a single local permission. 42 developer utilities in ~150KB: an all-in-one toolkit covering crypto & security, encoding, text & regex, time & Cron, network & DevOps, and frontend assets—built for everyday development needs."
+        },
+        "zh": {
           "name": "Dev 工具集",
           "description": "沙箱离线运行，零联网、仅1项本地权限。42 款开发工具仅 ~150KB：集安全加解密、编解码与转义、文本与正则排版、时间与 Cron 计算、网络与系统运维、前端图像与标识生成等全场景工具于一体，满足日常开发高频需求。"
         }
