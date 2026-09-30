@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "com.ardith.dbx-visual-query-builder",
+  "publisher": "ardith",
+  "version": "0.18.0",
+  "releaseNotes": "Searchable database picker (the native select could not be filtered, and this connection reports 62 schemas) with full keyboard control. Relationship cardinality is now drawn as a single 1:N badge on the edge at the curve midpoint. Also fixes: HAVING no longer accepts a free-form expression, foreign-key edges are always labelled 1:N instead of guessing at junction tables, and the test mock is no longer reachable from the shipped bundle.",
+  "targets": [
+    {
+      "target": "universal",
+      "url": "https://github.com/ardith666/dbx-visual-query-builder/releases/download/v0.18.0/com.ardith.dbx-visual-query-builder-0.18.0-universal.dbxp",
+      "sha256": "0b6ac58a0a758d20154cc243579088bc530b1180b67a3ef9096f712f31f0360b",
+      "size": 43340
+    }
+  ]
+}
